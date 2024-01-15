@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta property="og:title" content="Amarjeet Singh" />
+        <meta name="viewport" , content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- my -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" />
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" href="/">
+        <title>Amarjeet Singh</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container">
+                    <!-- Navbar brand/logo -->
+                    <a class="navbar-brand" href="#">Amarjeet Singh.</a>
+
+                    <!-- Toggle button for mobile -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Offcanvas Navbar -->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column align-items-end">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="education.html">Education</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="certificate.html">Certification</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="intro-section">
+                <img src="images/avatar.jpg" alt="A photo of Amarjeet" width="250px" height="250px" />
+                <h1>
+                    Hi, I am <span class="highlight-name">Amarjeet Singh,</span> a Computer Engineering Student from Southern Luzon State University, aspiring to become a Backend Web Developer.
+                </h1>
+            </div>
+
+            <section class="section educ-section">
+                <h2>Educational Background</h2>
+
+                <div class="education-div">
+                    <article class="educ">
+                        <h4 class="educ-title" style="font-weight: bold;">Casa del Niño Jesus de Lucban</h4>
+                        <p class="educ-dates"><strong>Elementary</strong> (2008-2014)</p>
+                    </article>
+
+                    <article class="educ">
+                        <h4 class="educ-title" style="font-weight: bold;">Casa del Niño Jesus de Lucban</h4>
+                        <p class="educ-dates"><strong>Junior HS</strong> (2014-2018)</p>
+                    </article>
+
+                    <article class="educ">
+                        <h4 class="educ-title" style="font-weight: bold;">Lucban Academy</h4>
+                        <p class="educ-dates"><strong>Senior HS</strong> (2018-2020)</p>
+                    </article>
+
+                    <article class="educ">
+                        <h4 class="educ-title" style="font-weight: bold;">Southern Luzon State University</h4>
+                        <p class="educ-dates"><strong>College</strong> (2020-present)</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </body>
+
+</html>

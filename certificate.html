@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta property="og:title" content="Amarjeet Singh" />
+        <meta name="viewport" , content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- my -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" />
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" href="/">
+        <title>Amarjeet Singh</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container">
+                    <!-- Navbar brand/logo -->
+                    <a class="navbar-brand" href="#">Amarjeet Singh.</a>
+
+                    <!-- Toggle button for mobile -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Offcanvas Navbar -->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column align-items-end">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="education.html">Education</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="certificate.html">Certification</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="intro-section">
+                <img src="images/avatar.jpg" alt="A photo of Amarjeet" width="250px" height="250px" />
+                <h1>
+                    Hi, I am <span class="highlight-name">Amarjeet Singh,</span> a Computer Engineering Student from Southern Luzon State University, aspiring to become a Backend Web Developer.
+                </h1>
+            </div>
+
+            <section class="section certificate-section">
+                <h2>Certification</h2>
+
+                <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/python-certificate.png" class="d-block w-100" alt="First slide" style="width: 100%; height: 300px; object-fit: contain;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/sql_basic-certificate.png" class="d-block w-100" alt="Second slide" style="width: 100%; height: 300px; object-fit: contain;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/sql_intermediate-certificate.png" class="d-block w-100" alt="Third slide" style="width: 100%; height: 300px; object-fit: contain;">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </main>
+    </body>
+
+</html>
